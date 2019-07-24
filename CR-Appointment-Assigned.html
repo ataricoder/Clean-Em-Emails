@@ -1,0 +1,114 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Subject: {{service_name}} on {{booking_date}}</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+	<div style="margin: 0;padding: 0;font-family: Helvetica Neue, Helvetica, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6;box-sizing: border-box;">
+		<div style="display: block !important;max-width: 600px !important;margin: 0 auto !important;clear: both !important;">
+			<table style="border: 1px solid #c2c2c2;width: 100%;float: left;margin: 30px 0px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-o-border-radius: 5px;border-radius: 5px;">
+				<tbody>
+					<tr style="border-bottom: 1px solid #e6e6e6;float: left;width: 100%;display: block;">
+						<td style="width: 59%;vertical-align: top;float: left;">
+							<div style="vertical-align: top;float: left;padding:15px;width: 100%;box-sizing: border-box;-webkit-box-sizing: border-box;clear: left;text-align: left;font-family: Montserrat, sans-serif;">
+								{{company_name}}<br />{{company_address}}<br />{{company_city}}, {{company_state}}, {{company_zip}}<br />{{company_country}}<br />{{company_phone}}<br />austin@clean-em.com
+							</div>
+						</td>
+						<td style="width: 40%;vertical-align: top;float: left;">
+							<div style="vertical-align: top;float: left;padding:15px;width: 100%;box-sizing: border-box;-webkit-box-sizing: border-box;clear: left;">
+								<div style="width: 130px;height: 100%;vertical-align: top;margin: 0px auto;">
+									<img style="width: 100%;float: left;display: inline-block;height: 100%;" src="{{business_logo}}" />
+								</div>
+							</div>
+						</td>
+
+
+					</tr>
+					<tr>
+						<td>
+							<div style="padding: 25px 30px;background: #fff;float: left;width: 90%;display: block;">
+								<div style="border-bottom: 1px solid #e6e6e6;float: left;width: 100%;display: block;">
+									<h6 style="color: #606060;font-size: 15px;margin: 10px 0px 10px;font-weight: 600;">Dear {{admin_name}}, </h6>
+									<p style="color: #606060;font-size: 15px;margin: 10px 0px 15px;">You've new appointment with {{client_name}} with following details:</p>
+								</div>
+								<div style="float: left;width: 100%;display: block;padding: 10px 0px;">
+									<div style="display: inline-block;width: 100%;float: left;">
+										<label style="font-size: 15px;color: #999999;padding-right: 5px;min-width: 95px;white-space: nowrap;float: left;line-height: 25px;">When: </label>
+										<span style="font-size: 15px;font-weight: 400;color: #606060;line-height: 25px;float: left;width: 76%;word-wrap: break-word;max-height: 70px;overflow: auto;"> {{booking_date}} {{booking_time}}</span>
+									</div>
+									<div style="display: inline-block;width: 100%;float: left;">
+										<label style="font-size: 15px;color: #999999;padding-right: 5px;min-width: 95px;white-space: nowrap;float: left;line-height: 25px;">For: </label>
+										<span style="font-size: 15px;font-weight: 400;color: #606060;line-height: 25px;float: left;width: 76%;word-wrap: break-word;max-height: 70px;overflow: auto;"> {{service_name}}</span>
+									</div>
+									<div style="display: inline-block;width: 100%;float: left;">
+										<label style="font-size: 15px;color: #999999;padding-right: 5px;min-width: 95px;white-space: nowrap;float: left;line-height: 25px;">Methods : </label>
+										<span style="font-size: 15px;font-weight: 400;color: #606060;line-height: 25px;float: left;width: 76%;word-wrap: break-word;max-height: 70px;overflow: auto;"> {{methodname}}</span>
+									</div>
+									<div style="display: inline-block;width: 100%;float: left;">
+										<label style="font-size: 15px;color: #999999;padding-right: 5px;min-width: 95px;white-space: nowrap;float: left;line-height: 25px;">Units : </label>
+										<span style="font-size: 15px;font-weight: 400;color: #606060;line-height: 25px;float: left;width: 76%;word-wrap: break-word;max-height: 70px;overflow: auto;"> {{units}}</span>
+									</div>
+									<div style="display: inline-block;width: 100%;float: left;">
+										<label style="font-size: 15px;color: #999999;padding-right: 5px;min-width: 95px;white-space: nowrap;float: left;line-height: 25px;">Add-ons : </label>
+										<span style="font-size: 15px;font-weight: 400;color: #606060;line-height: 25px;float: left;width: 76%;word-wrap: break-word;max-height: 70px;overflow: auto;"> {{addons}}</span>
+									</div>
+									<div style="display: inline-block;width: 100%;float: left;">
+										<label style="font-size: 15px;color: #999999;padding-right: 5px;min-width: 95px;white-space: nowrap;float: left;line-height: 25px;">Price : </label>
+										<span style="font-size: 15px;font-weight: 400;color: #606060;line-height: 25px;float: left;width: 76%;word-wrap: break-word;max-height: 70px;overflow: auto;"> {{price}}</span>
+									</div>
+
+
+									<div style="display: inline-block;width: 100%;float: left;">
+										<label style="font-size: 15px;color: #999999;padding-right: 5px;min-width: 95px;white-space: nowrap;float: left;line-height: 25px;">Name : </label>
+										<span style="font-size: 15px;font-weight: 400;color: #606060;line-height: 25px;float: left;width: 76%;word-wrap: break-word;max-height: 70px;overflow: auto;"> {{firstname}} {{lastname}}</span>
+									</div>
+									<div style="display: inline-block;width: 100%;float: left;">
+										<label style="font-size: 15px;color: #999999;padding-right: 5px;min-width: 95px;white-space: nowrap;float: left;line-height: 25px;">Email : </label>
+										<span style="font-size: 15px;font-weight: 400;color: #606060;line-height: 25px;float: left;width: 76%;word-wrap: break-word;max-height: 70px;overflow: auto;"> {{client_email}}</span>
+									</div>
+									<div style="display: inline-block;width: 100%;float: left;">
+										<label style="font-size: 15px;color: #999999;padding-right: 5px;min-width: 95px;white-space: nowrap;float: left;line-height: 25px;">Phone : </label>
+										<span style="font-size: 15px;font-weight: 400;color: #606060;line-height: 25px;float: left;width: 76%;word-wrap: break-word;max-height: 70px;overflow: auto;"> {{phone}}</span>
+									</div>
+									<div style="display: inline-block;width: 100%;float: left;">
+										<label style="font-size: 15px;color: #999999;padding-right: 5px;min-width: 95px;white-space: nowrap;float: left;line-height: 25px;">Payment : </label>
+										<span style="font-size: 15px;font-weight: 400;color: #606060;line-height: 25px;float: left;width: 76%;word-wrap: break-word;max-height: 70px;overflow: auto;"> {{payment_method}}</span>
+									</div>
+									<div style="display: inline-block;width: 100%;float: left;">
+										<label style="font-size: 15px;color: #999999;padding-right: 5px;min-width: 95px;white-space: nowrap;float: left;line-height: 25px;">Vaccum Cleaner : </label>
+										<span style="font-size: 15px;font-weight: 400;color: #606060;line-height: 25px;float: left;width: 76%;word-wrap: break-word;max-height: 70px;overflow: auto;"> {{vaccum_cleaner_status}}</span>
+									</div>
+									<div style="display: inline-block;width: 100%;float: left;">
+										<label style="font-size: 15px;color: #999999;padding-right: 5px;min-width: 95px;white-space: nowrap;float: left;line-height: 25px;">Parking : </label>
+										<span style="font-size: 15px;font-weight: 400;color: #606060;line-height: 25px;float: left;width: 76%;word-wrap: break-word;max-height: 70px;overflow: auto;"> {{parking_status}}</span>
+									</div>
+									<div style="display: inline-block;width: 100%;float: left;">
+										<label style="font-size: 15px;color: #999999;padding-right: 5px;min-width: 95px;white-space: nowrap;float: left;line-height: 25px;">Address : </label>
+										<span style="font-size: 15px;font-weight: 400;color: #606060;line-height: 25px;float: left;width: 76%;word-wrap: break-word;max-height: 70px;overflow: auto;"> {{address}}</span>
+									</div>
+									<div style="display: inline-block;width: 100%;float: left;">
+										<label style="font-size: 15px;color: #999999;padding-right: 5px;min-width: 95px;white-space: nowrap;float: left;line-height: 25px;">Notes : </label>
+										<span style="font-size: 15px;font-weight: 400;color: #606060;line-height: 25px;float: left;width: 76%;word-wrap: break-word;max-height: 70px;overflow: auto;"> {{notes}}</span>
+									</div>
+									<div style="display: inline-block;width: 100%;float: left;">
+										<label style="font-size: 15px;color: #999999;padding-right: 5px;min-width: 95px;white-space: nowrap;float: left;line-height: 25px;">Contact Status : </label>
+										<span style="font-size: 15px;font-weight: 400;color: #606060;line-height: 25px;float: left;width: 76%;word-wrap: break-word;max-height: 70px;overflow: auto;"> {{contact_status}}</span>
+									</div>
+								</div>
+								<div style="padding: 15px 0px;float: left;width: 100%;border-bottom: 1px solid #e6e6e6;">
+									<p style="color: #606060;font-size: 15px;line-height: 22px;margin: 10px 0px 15px;float: left;">This appointment is in pending.</p>
+								</div>
+								<div style="padding: 10px 0px;float: left;width: 100%;display: block;text-align: center;">
+									<h5 style="color: #606060;font-size: 13px;margin: 0px 0px 5px;">Thank you</h5>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
